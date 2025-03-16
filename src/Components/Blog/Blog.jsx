@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Blog = ({blog}) => {
+const Blog = ({blog,handleBookmarks}) => {
     const {image,author,date,read_time,title}=blog;
     return (
-        <div className='w-[50%] min-h-[400px] border-2 my-4'>
+        <div className='w-[50%] min-h-[400px] my-4'>
             <img className='w-full' src={image} alt="" />
             <div className='flex justify-between'>
                 <div className='flex items-center'>
@@ -14,8 +14,9 @@ const Blog = ({blog}) => {
                     </div>
                 </div>
 
-                <div>
-                    <p>{read_time}</p>
+                <div className='flex items-center'>
+                    <p>{read_time} </p>
+                    <span ><img  onClick={() => handleBookmarks(blog)}  src="https://img.icons8.com/?size=24&id=83134&format=png" alt="" /></span>
                 </div>
 
             </div>
