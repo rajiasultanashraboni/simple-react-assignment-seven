@@ -1,0 +1,55 @@
+[
+    {
+      "author": {
+        "name": "Mr. Raju",
+        "profile_image": "https://i.ibb.co.com/M5VvvgXS/boy1.png"
+      },
+      "date": "Mar 14",
+      "days_ago": 4,
+      "read_time": "05 min read",
+      "title": "How to get your first job as a self-taught programmer",
+      "tags": ["#beginners", "#programming"],
+      "status": "Mark as read",
+      "image": "https://i.ibb.co.com/MDhGqSDr/2.png"
+    },
+    {
+      "author": {
+        "name": "Ms. Ayesha",
+        "profile_image": "https://i.ibb.co.com/bRmHNzC8/boy2.jpg"
+      },
+      "date": "Mar 10",
+      "days_ago": 8,
+      "read_time": "07 min read",
+      "title": "Mastering JavaScript: Tips for Beginners",
+      "tags": ["#javascript", "#coding"],
+      "status": "Mark as read",
+      "image": "https://i.ibb.co.com/0jZJhBJ6/4.jpg"
+    },
+    {
+      "author": {
+        "name": "John Doe",
+        "profile_image": "https://i.ibb.co.com/8DxxVBkM/girl1.jpg"
+      },
+      "date": "Mar 5",
+      "days_ago": 13,
+      "read_time": "04 min read",
+      "title": "The Importance of Data Structures and Algorithms",
+      "tags": ["#DSA", "#learning"],
+      "status": "Mark as read",
+      "image": "https://i.ibb.co.com/ds9xQR40/3.png"
+    },
+    {
+      "author": {
+        "name": "Sarah Khan",
+        "profile_image": "https://i.ibb.co.com/MkkRmBnZ/girl2.jpg"
+      },
+      "date": "Feb 28",
+      "days_ago": 18,
+      "read_time": "06 min read",
+      "title": "Breaking Into Web Development in 2024",
+      "tags": ["#webdev", "#career"],
+      "status": "Mark as read",
+      "image": "https://i.ibb.co.com/BVCD0Y0C/1.jpg"
+    }
+  ]
+  
