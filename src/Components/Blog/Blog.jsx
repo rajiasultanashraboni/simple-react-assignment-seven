@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Blog = ({blog,handleBookmarks}) => {
+const Blog = ({blog,handleBookmarks,handleMarkAsRead}) => {
     const {image,author,date,read_time,title}=blog;
     return (
         <div className='w-[50%] min-h-[400px] my-4'>
@@ -22,7 +22,7 @@ const Blog = ({blog,handleBookmarks}) => {
             </div>
             {/* title  */}
             <h4>{title}</h4>
-            <button className='mb-5'>mark as read</button>
+            <button onClick={()=>handleMarkAsRead(read_time)} className='mb-5'>mark as read</button>
         </div>
     );
 };
